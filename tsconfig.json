@@ -8,6 +8,8 @@
 		"lib": ["es2024"],
     /* Specify what JSX code is generated. */
 		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": { "@/*": ["./web/src/*"] },
 
     /* Specify what module code is generated. */
 		"module": "es2022",
@@ -41,6 +43,6 @@
 			"node"
 		]
 	},
-	"exclude": ["test"],
+	"exclude": ["test", "web"],
 	"include": ["worker-configuration.d.ts", "src/**/*.ts"]
 }
