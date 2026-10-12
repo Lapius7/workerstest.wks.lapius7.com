@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "vite build",
-    "deploy": "vite build && wrangler deploy",
+    "deploy": "vite build && wrangler deploy && git push",
     "dev:web": "vite",
     "dev": "wrangler dev",
     "start": "wrangler dev",
